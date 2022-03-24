@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #navbar{
+    display:flex;
+    align-items:center;
+}
+#navbar{
+    position:relative;
+    margin:auto;
+    margin-top:-539px;
+    /* background-color: #0f0; */
+}
+#navbar ul{
+    display:flex;
+    margin-left:450px;
+    /* background-color: #0f0; */
+}
+.right{
+    display:inline-block;
+    position:absolute;
+    right:34px;
+    top:31px;
+    
+    /* border:2px solid red; */
+}
+#navbar::before{
+    content:"";
+    background-color: black;
+    position:absolute;
+    height:62%;
+    width:100%;
+    margin-top:0px;
+    z-index: -1;
+    opacity:0.4;
+}
+#navbar ul li{
+    list-style:none;
+    font-size:1rem;
+}
+#navbar ul li a{
+    color:rgb(15, 15, 15);
+  display:block;
+  padding:6px 24px;
+  border-radius:10px;
+  background-color: antiquewhite;
+  text-decoration: none;
+  border: 2px solid green;
+  margin:3px;
+  /* -webkit-box-reflect:below 0px linear-gradient(transparent,#0002); */
+  transition: 0.5s;
+  transition-delay:0s;
+}
+#navbar ul li a:hover{
+    /* transition-delay:1.5s; */
+/* color:#000; */
+box-shadow:0 0 10px #0f0,
+0 0 20px rgb(12, 12, 12),
+0 0 40px rgb(247, 244, 245),
+0 0 80px rgb(250, 247, 248),
+0 0 160px rgb(252, 249, 249);
+}
+    </style>
+</head>
+<body>
+    <img src="1.png" alt="image" width="100%" height="100%" >
+    <!-- <img src="https://www.canva.com/design/DAE7uU2VqW0/LIMiwvBawgzsC5x75ZQi2g/view?utm_content=DAE7uU2VqW0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" width="100%"  height="100%"> -->
+    <nav id="navbar">
+        <div id="logo">
+            <!-- <img src="logo1.png" alt="My Logo"> -->
+        </div>
+        <ul>
+            <li class="item"><a href="#"><span>Home</span></a></li>
+            <li class="item"><a href="trial.html">Compare Colleges</a></li>
+            <li class="item"><a href="Contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="right">
+        
+        <button class="btn"><a href="Login.html">Register</a></button>
+        <button class="btn"><a href="Sign Up.html">Sign In</a></button>
+ 
+    </div>
+    </div>
+</body>
+<!-- <img src="https://png.pngtree.com/background/20210711/original/pngtree-graduation-ceremony-background-poster-picture-image_1078739.jpg"> -->
+</html>
